@@ -1,4 +1,4 @@
-![LOGO](pictures/blockpass_logo.png)
+![LOGO](views/pics/logo.png)
 
 # **BlockPass** 🔗🎟️  
 **From chain to check-in — seamless.**
