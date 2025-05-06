@@ -46,6 +46,5 @@ Welcome to **BlockPass** – a blockchain-based ticketing solution that ensures 
 
 ---
 
-Built with ❤️ by curious students, for secure and smart events.  
 **No fakes. No duplicates. Just BlockPass.**
 
