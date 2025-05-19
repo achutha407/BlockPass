@@ -1,1 +1,98 @@
 
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0d1117;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  #logo{
+
+    width: 15%;
+    height:15%;
+  }
+
+  .glass-header {
+    background: rgba(6, 143, 255, 0.1);
+    border: 1px solid #068FFF44;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px #068FFF33;
+  }
+
+  #bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5; /* adjust for visibility */
+    filter: blur(2px);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #068FFF;
+  }
+  
+  button {
+    background-color: #068FFF;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #444;
+    cursor: not-allowed;
+  }
+  
+  button:hover:enabled {
+    background-color: #027acc;
+  }
+  
+  .qr-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    border: 1px solid #068FFF55;
+    box-shadow: 0 0 15px #068FFF22;
+  }
+  
+  #ticketPreview {
+    margin-top: 30px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #068FFF55;
+    box-shadow: 0 0 15px #068FFF22;
+  }
+  
+  #ticketCanvas {
+    border-radius: 10px;
+    border: 1px solid #068FFF66;
+  }
+  
