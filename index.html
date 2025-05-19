@@ -1,3 +1,43 @@
-<htmk>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BlockPass</title>
+  <link rel="stylesheet" href="views/css/index.css"/>
+  <link rel="icon" href="views/pics/favicom.png"/>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <video autoplay muted loop id="bgVideo">
+    <source src="views/bgv/background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
   
-</htmk>
+  <div class="container">
+    <header class="glass-header">
+      <h1>Welcome to <img src="views/pics/logo.png" id="logo"></h1>
+    </header>
+
+    <main>
+      <button id="connectBtn">🦊 Connect MetaMask</button>
+      <button id="claimBtn" disabled>🎫 Claim Your Ticket</button>
+      <div id="qrContainer" class="qr-box" style="display: none;">
+        <h2>Your Ticket QR:</h2>
+        <canvas id="qrCanvas"></canvas>
+      </div>
+      <div id="ticketPreview" style="display: none;">
+        <canvas id="ticketCanvas" width="600" height="300"></canvas>
+        <br />
+        <button id="downloadBtn">⬇️ Download Ticket</button>
+      </div>
+      
+    </main>
+  </div>
+
+  <script src="views/js/index.js"></script>
+</body>
+</html>
